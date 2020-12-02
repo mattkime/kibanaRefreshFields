@@ -1,5 +1,5 @@
 # kibanaRefreshFields
-Refresh kibana index fields via kibanas API
+Refresh kibana index fields via kibanas API for Elastic stack versions <7.11. The index pattern field list is no longer cached as of 7.11
 ## Expected variables
 I have this setup in my ~/.bashrc, another deployment would be to place this in k8s.
 ```/bin/bash
